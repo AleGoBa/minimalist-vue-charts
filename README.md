@@ -1,5 +1,17 @@
-# Vue 3 + Vite
+# MinimalistVueCharts
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**MinimalistVueCharts** is a lightweight and simple library to integrate basic charts into Vue.js applications. Ideal for projects that need quick, customizable charts without unnecessary complexity or dependencies.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- **Lightweight and easy to use**: Only the essentials for basic charts.
+- **Simple customization**: Easily change colors, styles, and data.
+- **Responsive**: Automatically adapts to different screen sizes.
+- **Supports basic charts**: Line, bar, and area charts.
+
+## Installation
+
+You can install **MinimalistVueCharts** using npm:
+
+```bash
+npm install minimalist-vue-charts
