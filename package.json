@@ -1,9 +1,11 @@
 {
   "name": "@alegoba/minimalist-vue-charts",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/minimalist-vue-charts.umd.cjs",
   "module": "./dist/minimalist-vue-charts.js",
   "exports": {
