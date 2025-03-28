@@ -40,8 +40,8 @@ const initializeDatasets = () => {
           backgroundColor: (ctx) => {
             if (ctx.chart.chartArea) {
               let gradient = ctx.chart.ctx.createLinearGradient(0, ctx.chart.chartArea.top, 0, ctx.chart.chartArea.bottom)
-              gradient.addColorStop(0, dataset?.accentColor || '#b7c4d7')
-              gradient.addColorStop(1, '#FFF')
+              gradient.addColorStop(0, dataset?.accentColorFrom || '#b7c4d7')
+              gradient.addColorStop(1, dataset?.accentColorTo || '#FFF')
               return gradient;
             }
           },
