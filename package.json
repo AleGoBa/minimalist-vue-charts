@@ -7,10 +7,10 @@
     "dist"
   ],
   "main": "./dist/minimalist-vue-charts.umd.cjs",
-  "module": "./dist/minimalist-vue-charts.js",
+  "module": "./dist/minimalist-vue-charts.es.js",
   "exports": {
     ".": {
-      "import": "./dist/minimalist-vue-charts.js",
+      "import": "./dist/minimalist-vue-charts.es.js",
       "require": "./dist/minimalist-vue-charts.umd.cjs"
     }
   },
