@@ -14,4 +14,4 @@
 You can install **MinimalistVueCharts** using npm:
 
 ```bash
-npm install minimalist-vue-charts
+npm install @alegoba/minimalist-vue-charts
