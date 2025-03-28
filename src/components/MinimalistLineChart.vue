@@ -45,7 +45,7 @@ const initializeDatasets = () => {
               return gradient;
             }
           },
-          borderColor: dataset?.accentColor || '#2C578A',
+          borderColor: dataset?.borderColor || '#2C578A',
           ...defaultDatasetStyle,
         },
         ...dataset
