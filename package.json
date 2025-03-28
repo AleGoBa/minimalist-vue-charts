@@ -1,0 +1,36 @@
+{
+  "name": "@alegoba/minimalist-vue-charts",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/minimalist-vue-charts.umd.cjs",
+  "module": "./dist/minimalist-vue-charts.js",
+  "exports": {
+    ".": {
+      "import": "./dist/minimalist-vue-charts.js",
+      "require": "./dist/minimalist-vue-charts.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.vue"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "eslint-plugin-vue": "^10.0.0",
+    "globals": "^16.0.0",
+    "prettier": "3.5.3",
+    "vite": "^6.2.0",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
